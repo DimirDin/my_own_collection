@@ -56,22 +56,6 @@ Playbook использует роль my_own_namespace.yandex_cloud_elk.write_f
 
    ![Пункт 16](screenshots/step16_playbook_run.png)
 
-Структура коллекции
-
-my_own_namespace/yandex_cloud_elk/
-├── galaxy.yml
-├── README.md
-├── plugins/
-│   └── modules/
-│       └── my_own_module.py
-├── roles/
-│   └── write_file/
-│       ├── defaults/
-│       │   └── main.yml
-│       └── tasks/
-│           └── main.yml
-└── playbook_use_role.yml
-
 Использование
 
 Установка коллекции
