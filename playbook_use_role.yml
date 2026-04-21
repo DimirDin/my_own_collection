@@ -1,0 +1,8 @@
+- name: Use role to create file
+  hosts: localhost
+  gather_facts: no
+  vars:
+    file_path: /tmp/from_role.txt
+    file_content: "Created by role"
+  roles:
+    - write_file
