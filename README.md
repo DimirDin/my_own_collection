@@ -1,8 +1,8 @@
 # my_own_namespace.yandex_cloud_elk
 
-Модуль `my_own_module` создаёт текстовый файл на удалённом хосте.
+Модуль `my_own_module` создаёт текстовый файл.
 
-## Параметры модуля
+## Параметры
 - `path` (str, required): путь к файлу
 - `content` (str, required): содержимое
 
@@ -10,9 +10,3 @@
 Переменные:
 - `file_path` (default: /tmp/default.txt)
 - `file_content` (default: "Default content")
-
-## Пример playbook
-```yaml
-- hosts: all
-  roles:
-    - my_own_namespace.yandex_cloud_elk.write_file
